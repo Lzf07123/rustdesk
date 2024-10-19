@@ -101,7 +101,7 @@ const CHARS: &[char] = &[
 ];
 
 pub const RENDEZVOUS_SERVERS: &[&str] = &["1panel.lizf.cn"];
-pub const PUBLIC_RS_PUB_KEY: &str = "kjyrYXiqaXe5+e8gomfcGSt74FsE9D1rniVtjVv7sRM=";
+pub const PUBLIC_RS_PUB_KEY: &str = "Km92gn+NPlUb6xclSlHzENk6Wq1jp2oyiAI4Pk6aOlY=";
 
 pub const RS_PUB_KEY: &str = match option_env!("RS_PUB_KEY") {
     Some(key) if !key.is_empty() => key,
